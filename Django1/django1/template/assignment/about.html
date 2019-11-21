@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+<body>
+	<img src="{% static "images/1.jpeg" %}" />
+	<h1>Karan Pandya</h1>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+	<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+	<p>when an unknown printer took a galley of type and scrambled it to make a type</p>
+	<p>specimen book. It has survived not only five centuries, but also the leap into</p>
+	<p>electronic typesetting, remaining essentially unchanged. It was popularised in</p>
+	<p>the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
+	<p>and more recently with desktop publishing software like Aldus PageMaker</p>
+	<p>including versions of Lorem Ipsum.</p>
+	{{ about }}
+</body>
+</html>

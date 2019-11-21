@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+	<form method="POST">
+        {% csrf_token %}
+        {{ signup }}
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
